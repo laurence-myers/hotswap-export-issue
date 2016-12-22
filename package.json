@@ -4,6 +4,7 @@
   "description": "Demonstrates an issue with CommonJS export using ES6\u001b[D\u001b[D\u001b[Dhotswap and ES6",
   "main": "dist/index.js",
   "scripts": {
+    "dist": "tsc"
   },
   "author": "",
   "license": "ISC",
