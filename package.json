@@ -1,0 +1,15 @@
+{
+  "name": "hotswap-export-issue",
+  "version": "1.0.0",
+  "description": "Demonstrates an issue with CommonJS export using ES6\u001b[D\u001b[D\u001b[Dhotswap and ES6",
+  "main": "dist/index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^6.0.52",
+    "hotswap": "^1.1.0",
+    "typescript": "^2.1.4"
+  }
+}
