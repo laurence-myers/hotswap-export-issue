@@ -1,8 +1,8 @@
 "use strict";
 const hotswap = require('hotswap'); // enable hotswapping of code modules
-const inheritedWorking = require("./inheritedWorking");
-const inheritedFailing = require("./inheritedFailing");
-console.log(inheritedWorking);
-console.log(inheritedFailing);
-inheritedWorking.inheritedMethod();
-inheritedFailing.inheritedMethod();
+const importedWorking = require("./importedWorking");
+const importedFailing = require("./importedFailing");
+console.log(importedWorking);
+console.log(importedFailing);
+importedWorking.workingMethod();
+importedFailing.failingMethod();

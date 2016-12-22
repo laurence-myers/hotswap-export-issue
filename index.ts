@@ -1,10 +1,10 @@
 const hotswap = require('hotswap'); // enable hotswapping of code modules
 
-import inheritedWorking = require('./inheritedWorking');
-import inheritedFailing = require('./inheritedFailing');
+import importedWorking = require('./importedWorking');
+import importedFailing = require('./importedFailing');
 
-console.log(inheritedWorking);
-console.log(inheritedFailing);
+console.log(importedWorking);
+console.log(importedFailing);
 
-inheritedWorking.inheritedMethod();
-inheritedFailing.inheritedMethod();
+importedWorking.workingMethod();
+importedFailing.failingMethod();
